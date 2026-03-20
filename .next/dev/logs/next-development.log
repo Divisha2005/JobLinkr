@@ -1,0 +1,40 @@
+[00:00:03.696] Server  LOG     ✓ Ready in 2.6s
+[00:01:31.447] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=5&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
+[00:01:39.700] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=3&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true&query=react"
+[00:01:41.021] Server  WARN    Fiverr scraping failed, using fallback data: Error: Failed to fetch Fiverr: 403
+[00:01:49.310] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=3&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
+[00:03:08.047] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:08.688] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:08.688] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:08.689] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773376194994} /_vercel/insights/view
+[00:03:25.220] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=50&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
+[00:03:25.242] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/jobs color: rgb(120, 120, 120) color: inherit {"dp":"/jobs","o":"http://localhost:3000/jobs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773376211512} /_vercel/insights/view
+[00:03:26.190] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=50&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
+[00:06:56.220] Server  LOG       Reload env: .env.local
+[00:06:56.450] Server  LOG       Reload env: .env.local
+[00:16:43.292] Server  LOG     ✓ Compiled in 313ms
+[00:16:44.549] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=50&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
+[00:16:45.539] Server  WARN    Adzuna API credentials not configured. Set ADZUNA_APP_ID and ADZUNA_API_KEY in .env.local
+[00:16:57.117] Server  LOG     ✓ Compiled in 304ms
+[00:16:57.776] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=50&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
+[00:16:57.798] Server  WARN    Adzuna API credentials not configured. Set ADZUNA_APP_ID and ADZUNA_API_KEY in .env.local
+[00:17:11.796] Server  LOG     ✓ Compiled in 319ms
+[00:17:12.489] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=50&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
+[00:17:12.509] Server  WARN    Adzuna API credentials not configured. Set ADZUNA_APP_ID and ADZUNA_API_KEY in .env.local
+[00:17:43.412] Server  LOG       Reload env: .env.local
+[00:20:45.788] Server  LOG     ✓ Compiled in 104ms
+[00:20:46.012] Server  LOG     Fetching from Adzuna API: "https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=your_adzuna_app_id_here&app_key=***&results_per_page=50&content-type=application%2Fjson"
+[00:20:47.876] Server  ERROR   Error fetching from Adzuna API: Error: Adzuna API error: 401 Unauthorized - {"exception":"AUTH_FAIL","__CLASS__":"Adzuna::API::Response::Exception","doc":"https://api.adzuna.com/v1/doc","display":"Authorisation failed"}
+[00:20:47.960] Server  ERROR   Jobs API error: Error: Adzuna API error: 401 Unauthorized - {"exception":"AUTH_FAIL","__CLASS__":"Adzuna::API::Response::Exception","doc":"https://api.adzuna.com/v1/doc","display":"Authorisation failed"}
+[00:21:22.616] Server  LOG       Reload env: .env.local
+[00:23:29.498] Server  LOG     Fetching from Adzuna API: "https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=your_adzuna_app_id_here&app_key=***&results_per_page=50&content-type=application%2Fjson"
+[00:23:31.858] Server  ERROR   Error fetching from Adzuna API: Error: Adzuna API error: 401 Unauthorized - {"__CLASS__":"Adzuna::API::Response::Exception","doc":"https://api.adzuna.com/v1/doc","exception":"AUTH_FAIL","display":"Authorisation failed"}
+[00:23:32.127] Server  ERROR   Jobs API error: Error: Adzuna API error: 401 Unauthorized - {"__CLASS__":"Adzuna::API::Response::Exception","doc":"https://api.adzuna.com/v1/doc","exception":"AUTH_FAIL","display":"Authorisation failed"}
+[00:25:45.663] Server  LOG     ✓ Compiled in 127ms
+[00:25:45.914] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=50&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
+[00:26:03.755] Server  LOG       Reload env: .env.local
+[00:33:17.988] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:18.186] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:33:18.186] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/jobs","route":"/jobs"}
+[00:33:18.187] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/jobs color: rgb(120, 120, 120) color: inherit {"dp":"/jobs","o":"http://localhost:3000/jobs","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1773378004491} /_vercel/insights/view
+[00:33:18.436] Server  LOG     Fetching from Freelancer API: "https://www.freelancer.com/api/projects/0.1/projects/active?limit=50&offset=0&sort_field=submitdate&sort_direction=desc&job_details=true&full_description=true&bid_stats=true&user_details=true"
